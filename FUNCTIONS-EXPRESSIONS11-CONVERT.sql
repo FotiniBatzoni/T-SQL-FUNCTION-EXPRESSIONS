@@ -1,0 +1,5 @@
+USE [AdventureWorks2012]
+GO
+
+SELECT CONVERT (NVARCHAR(10),BUSINESSENTITYID ) + ':' +LASTNAME +',' + FirstName AS [ID_NAME]
+FROM Person.Person

@@ -1,0 +1,5 @@
+USE [AdventureWorks2012]
+GO
+
+SELECT BUSINESSENTITYID, FIRSTNAME + ' ' + MiddleName + FIRSTNAME AS [FULL NAME]
+FROM Person.Person

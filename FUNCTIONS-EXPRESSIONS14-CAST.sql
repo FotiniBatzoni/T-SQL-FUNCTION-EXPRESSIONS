@@ -1,0 +1,5 @@
+USE [AdventureWorks2012]
+GO
+
+SELECT CAST (PRODUCTID AS NVARCHAR(10)) +':' +NAME  AS [PRODUCTIDNAME]
+FROM Production.Product

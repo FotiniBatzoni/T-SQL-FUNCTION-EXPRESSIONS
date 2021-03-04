@@ -1,0 +1,5 @@
+USE [AdventureWorks2012]
+GO
+
+SELECT CAST (BUSINESSENTITYID AS NVARCHAR) + ':' +LASTNAME +',' + FirstName AS [ID_NAME]
+FROM Person.Person

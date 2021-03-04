@@ -1,0 +1,5 @@
+USE [AdventureWorks2012]
+GO
+
+SELECT SPECIALOFFERID,DESCRIPTION,MINQTY,DiscountPct,MinQty*DiscountPct
+FROM SALES.SpecialOffer

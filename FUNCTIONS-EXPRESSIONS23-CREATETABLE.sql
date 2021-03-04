@@ -1,0 +1,4 @@
+USE [AdventureWorks2012]
+
+--CREATE A TEMP TABLE
+CREATE TABLE #trimExample (COL1 VARCHAR(10));
