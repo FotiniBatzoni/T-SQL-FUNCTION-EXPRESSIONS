@@ -1,0 +1,6 @@
+USE [AdventureWorks2012]
+GO
+
+SELECT   SalesOrderID,OrderDate,YEAR(ORDERDATE) AS [2006]
+FROM Sales.SalesOrderHeader
+WHERE ORDERDATE BETWEEN '2006/01/01' AND '2006/12/31'
